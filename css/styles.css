@@ -456,6 +456,13 @@ button {
     gap: 40px;
 }
 
+.social-list-link-mob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+}
 
 
 .mobile-items {
@@ -1290,6 +1297,7 @@ button {
 /* svg icon */
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-close-icon:hover,
