@@ -1356,6 +1356,10 @@ button {
     border-color: #4D5AE5;
 }
 
+input:focus+svg {
+    fill: #4D5AE5;
+}
+
 .svg-person {
     position: absolute;
     left: 16px;
@@ -1497,23 +1501,7 @@ button {
 
 
 
-/* ---------- RESOLUTION Back Ground */
 
-/* .top-banner {
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 72px 0;
-    position: relative;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
-
-@media screen and (min-resolution: 2x) {}
 
 /* 
     /* @media screen and (min-width: 768px) {}
