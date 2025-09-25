@@ -123,7 +123,9 @@
           <h1 class="top-banner-h-one">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-order">Order Service</button>
+          <button type="button" class="button-order" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- second  STRATEGY section -->
@@ -792,9 +794,9 @@
     </footer>
 
     <!-- Modal Window -->
-    <div class="modal-overlay is-open hidden">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button type="button" class="close-btw-modal">
+        <button type="button" class="close-btw-modal" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
