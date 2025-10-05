@@ -1118,7 +1118,7 @@ button {
 
 
 /* --- Tablet --- */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
 
     .container-footer {
@@ -1128,6 +1128,9 @@ button {
         /* flex-wrap: nowrap; */
         flex-wrap: wrap;
         max-width: 768px;
+        padding-left: 108px;
+        justify-content: left;
+
 
     }
 
@@ -1149,6 +1152,7 @@ button {
     .social-items {
         text-align: left;
     }
+
 }
 
 /* ------------- PC Desktop ----------------- */
@@ -1164,7 +1168,7 @@ button {
         margin: 0 auto;
         flex-wrap: nowrap;
         padding: 100px 0;
-        padding-left: 156px;
+        /* padding-left: 156px; */
 
     }
 
