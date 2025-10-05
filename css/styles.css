@@ -1162,6 +1162,10 @@ button {
         padding: 0;
     }
 
+    .footer-social {
+        margin-right: 80px;
+    }
+
     .container-footer {
         display: flex;
         align-items: baseline;
@@ -1169,7 +1173,7 @@ button {
         flex-wrap: nowrap;
         padding: 100px 0;
         /* padding-left: 156px; */
-
+        gap: 0;
     }
 
     .footer-p {
@@ -1189,6 +1193,7 @@ button {
 
 
     }
+
 
     .social-items {
         text-align: left;
